@@ -13,5 +13,5 @@ with st.sidebar:
 st.write(f"Chào mừng, **{ten_nguoi_dung if ten_nguoi_dung else 'khách'}**!")
 
 st.write(f"Mức độ phức tạp đã chọn: **{muc_do_phuc_tap}**")
-
+   
 st.write("Nội dung chính của ứng dụng nằm ở đây.")
