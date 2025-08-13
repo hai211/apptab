@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd 
 import numpy as np
 
+st.set_page_config(page_title="Apptap",layout="centered")
+
 st.title("Ứng dụng với Tabs")
 tab1, tab2, tab3, tap4, tap5 = st.tabs(["Giới thiệu", "Phân tích Dữ liệu", "Thiết lập", "Đăng nhập", "Đăng ký"])
 with tab1:
@@ -31,7 +33,7 @@ with tab3:
     st.checkbox("Bật chế độ nâng cao")
 
 with tap4:
-    
+
     st.header("Đăng nhập")
 
     container = st.container(border=True)
@@ -85,7 +87,7 @@ else:
     
     user=""
     password1=""
-
+        
 
 with tap5:
     
